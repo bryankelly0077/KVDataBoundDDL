@@ -34,6 +34,7 @@ namespace KVDataBoundDDL
 
         }
 
+        //GetData method where passes appropiate parameter
         private DataSet GetData(string SPName, SqlParameter SPParameter)
         {
             String CS = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
