@@ -74,12 +74,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AllListControls.aspx" />
     <Content Include="CheckAndList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="ListBox.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllListControls.aspx.cs">
+      <DependentUpon>AllListControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllListControls.aspx.designer.cs">
+      <DependentUpon>AllListControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CheckAndList.aspx.cs">
       <DependentUpon>CheckAndList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
